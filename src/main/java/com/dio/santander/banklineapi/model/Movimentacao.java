@@ -31,6 +31,7 @@ public class Movimentacao {
 	
 	@Column(name = "id_conta")
 	private Integer idConta;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -43,10 +44,10 @@ public class Movimentacao {
 	public void setDataHora(LocalDateTime dataHora) {
 		this.dataHora = dataHora;
 	}
-	public String getDescrcao() {
+	public String getDescricao() {
 		return descricao;
 	}
-	public void setDescrcao(String descrcao) {
+	public void setDescricao(String descrcao) {
 		this.descricao = descrcao;
 	}
 	public Double getValor() {
